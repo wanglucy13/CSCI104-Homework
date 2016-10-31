@@ -1,0 +1,20 @@
+Problem 1
+	'a.' 	README.md: up to date with origin/master
+	'b.' 	README.md: modified
+			fun_problem.txt: untracked
+	'c.' 	README.md: staged
+			fun_problem.txt: staged
+	'd.' 	README.md: modified
+			fun_problem.txt: modified
+	'e.' 	README.md: modified
+			fun_problem.txt: up to date with origin/master
+			There is nothing in the file fun_problem.txt because it pulled the up-to-date file from the server and replaced the current file with the up-to-date blank one.
+	'f.' 	README.md: both modified/staged and modified/unstaged
+			This status was reached because we previously staged the README.md file in part e, but then we modified the file with the echo command causing it to be unstaged as well.
+
+Problem 6
+	bool empty() const -> Θ(1)
+	void push(const double& val) -> Θ(n)
+	double const& top() const -> Θ(n)
+	void pop() -> Θ(n)
+		For empty() the function only goes through the if statement to check if the list is empty in stackdbl.cpp and llistdbl.cpp. For push, because getNodeAt takes n time to complete because it has to traverse the entire list to find the last element pushed. This is the same for top() and pop() because both functions must traverse the entire list to reach the last element of the stack. 

@@ -1,0 +1,27 @@
+Problem 1 (Course Policies)
+a. Which of the following are acceptable behaviors in solving homework/projects?
+  1. Looking up information relevant to the course online
+  3. Talking to my classmates about the problems.
+  5. Asking the course staff for help.
+b. Which of the following are recommended ways of writing code?
+  2. emacs 
+  3. Eclipse
+  4. vim
+  5. Microsoft Visual Studio
+  7. Sublime
+c. What is the late submission policy?
+  3. Each student can use up to 2 of 4 grace days on one assignment
+d. If using a grace day(s) you should commit your code via Github and
+  4. Create an issue in your issue tracker assign it to the listed CP/TA
+Problem 2 (Git)
+a. Which of the following git user interfaces are accepted?
+  1. Git Bash (Windows)
+  3. Terminal (Mac or Linux)
+b. Provide the appropriate git command to perform:
+  1. Stage an untracked file to be committed:
+	git add hw1q2b.cpp
+  2. Display the details of the last three commits in the repo:
+	git log -p -3
+c. Let's say you staged three files to be committed. Then, you ran the following command: git commit
+What will git do?
+  Git will commit all three files, but will prompt you to create a message for the commits
